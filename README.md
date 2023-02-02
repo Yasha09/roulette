@@ -11,8 +11,6 @@ For the endpoint test, I use unit and integration tests.
 Unit test - I am testing roulette.service, it implements the entire method except saving it in db (mocked Repository.save() method).
 Integration tests -  For that, I also tested the database for saving random numbers in DB. I use a test database which before starting initialize a new DB, and insert data, after it cleans all db.
 
-### Warning
-I also create DockerFile and docker-compose but it is not finished there are some bugs.
 ## Installation
 
 ```bash
